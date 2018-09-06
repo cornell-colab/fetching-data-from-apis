@@ -15,6 +15,16 @@ A workshop on fetching data from public APIs &amp; comparison to other scraping/
 
 [A technical introduction to APIs](https://restful.io/an-introduction-to-api-s-cee90581ca1b)
 
+## Learning Goals
+
+At the end of this workshop, you will be able to:
+* Explain the concept of a public API and identify a few use-cases relative to your work/studies/personal curiositiy
+* Use query strings with parameters in a URL to fetch subsets of data from an API
+* View and parse JSON and compare it to other data structures (especially .csv files)
+* Identify the basic categories of APIs (we will not learn how to access APIs requiring special permissions like tokens today, but we will point you to further resources to go deeper)
+* Identify at least one use-case for interfacing with an API using a programming language like Python (again, beyond the scope of this specific workshop, but helpful to recognize out in the wild!)
+
+
 ## Outline
 
 1. First: dogs!
