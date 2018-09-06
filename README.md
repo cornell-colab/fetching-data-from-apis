@@ -3,6 +3,8 @@ A workshop on fetching data from public APIs &amp; comparison to other scraping/
 
 ## Resources
 
+[Dog API](https://dog.ceo/dog-api/)
+
 [List of Public APIs](https://github.com/toddmotto/public-apis)
 
 [API for Public API collection - meta!](https://github.com/davemachado/public-api)
