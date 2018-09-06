@@ -27,11 +27,9 @@ At the end of this workshop, you will be able to:
 
 ## Outline
 
-1. First: dogs!
-2. Why fetch data?
-3. What is a Public API?
-4. Example: New York State Public APIs
-5. Understanding the structure of data (JSON, CSV, etc.)
-6. A glimpse under the hood - what is the request response cycle?
-7. Types of APIs
-8. Future directions: accessing with Python, comparison to web scraping, etc.
+1. Why fetch data? (dogs!)
+2. What is a Public API? (NY State Public API)
+3. Types of APIs
+4. Understanding the structure of data (JSON, CSV, etc.)
+5. A glimpse under the hood - what is the request response cycle?
+6. Future directions: accessing with Python, comparison to web scraping, etc.
