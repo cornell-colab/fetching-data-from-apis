@@ -21,8 +21,8 @@ At the end of this workshop, you will be able to:
 * Explain the concept of a public API and identify a few use-cases relative to your work/studies/personal curiositiy
 * Use query strings with parameters in a URL to fetch subsets of data from an API
 * View and parse JSON data, and recognize the difference between JSON and CSV data
-* Identify the basic categories of APIs (we will not learn how to access APIs requiring access tokens today, but we will point you to further resources to go deeper)
-* Identify at least one use-case for interfacing with an API using a programming language like Python (again, beyond the scope of this specific workshop, but helpful to recognize out in the wild!)
+* Identify the basic categories of APIs
+* Identify at least one use-case for interfacing with an API using a programming language like Python (beyond the scope of this specific workshop, but helpful to recognize out in the wild!)
 
 
 ## Outline
