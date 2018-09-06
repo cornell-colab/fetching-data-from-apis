@@ -1,6 +1,8 @@
 # fetching-data-from-apis
 A workshop on fetching data from public APIs &amp; comparison to other scraping/fetching techniques
 
+*Note: We recommend downloading and using the most recent version of [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/) in this workshop. Firefox has some great tools for developers, including easy viewing of files in JSON formatting.*
+
 ## Resources
 
 [Dog API](https://dog.ceo/dog-api/)
