@@ -4,8 +4,11 @@ A workshop on fetching data from public APIs &amp; comparison to other scraping/
 ## Resources
 
 [List of Public APIs](https://github.com/toddmotto/public-apis)
+
 [API for Public API collection - meta!](https://github.com/davemachado/public-api)
+
 [Developer access to data.ny.gov datasets](https://data.ny.gov/developers)
+
 [A technical introduction to APIs](https://restful.io/an-introduction-to-api-s-cee90581ca1b)
 
 ## Outline
