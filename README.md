@@ -22,7 +22,7 @@ At the end of this workshop, you will be able to:
 * Use query strings with parameters in a URL to fetch subsets of data from an API
 * View and parse JSON data, and recognize the difference between JSON and CSV data
 * Identify the basic categories of APIs
-* Identify at least one use-case for interfacing with an API using a programming language like Python (beyond the scope of this specific workshop, but helpful to recognize out in the wild!)
+* Identify at least one use-case for interfacing with an API using a programming language like Python (beyond the scope of this specific workshop, but helpful to recognize out in the wild)
 
 
 ## Outline
@@ -33,4 +33,5 @@ At the end of this workshop, you will be able to:
 4. Example: New York State Public APIs
 5. Understanding the structure of data (JSON, CSV, etc.)
 6. A glimpse under the hood - what is the request response cycle?
-7. Types of APIs (and comparisons to other options for retrieving/scraping data)
+7. Types of APIs
+8. Future directions: accessing with Python, comparison to web scraping, etc.
