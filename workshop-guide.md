@@ -34,7 +34,8 @@ At the end of this workshop, you will be able to:
 5. Understanding the structure of data (parsing the JSON tree)
 6. Future directions: accessing with Python, comparison to web scraping, etc.
 
-### Why fetch data with a public API?
+
+### 1. Why fetch data with a public API?
 
 Whether you are a student, researcher, librarian, or developer, you are already in the habit of seeking out data to answer questions that matter to you. This might look like: finding a specific e-mail in your inbox, typing search terms into a search engine, looking up historical materials in an archive, entering an address into a mapping app, searching for key words within a journal article, and so on.
 
@@ -44,7 +45,7 @@ Each of these queries usually results in one of the following: a specific point 
 
 Today, we are going to introduce you to a new way of querying data from larger collections: **Public APIs**. APIs solve an important problem: how can the facilitators of databases and datasets enable future users to access their data? And specifically, how can this data be made accessible *without knowing the specific desired use-cases ahead of time*, and *without requiring all users to use visual, closed interfaces like database searches?*.
 
-### What is a Public API?
+### 2. What is a Public API?
 
 A Public API is a service that supports free, open access to some kind of data. "API" stands for Application Programming Interface. In other words, the API takes some kind of query from the user - it can be as general as "show me all of your data" or as specific as "only show me data from August 1st, 2018, at 9am, if it contains the words "cute dog". The API, in turn, interfaces with the dataset/database to grab the data that matches the user's query. Finally, the API returns the data to the user in some format that will be useful. At the moment, JSON is the most common format for data returned from an API (more on JSON later).
 
@@ -56,7 +57,17 @@ An API query can take several forms. Quite often, an API will be accessible thro
 
 While the Dog API gives us some fancy preview features, we actually don't need any of them to query the Public API directly. Try copy and pasting the following URLs into your browser address bar (ideally in a new tab):
 
+https://dog.ceo/api/breeds/image/random
+https://dog.ceo/api/breed/husky/images
+https://dog.ceo/api/breeds/list/all 
 
+Let's also try something non-dog-related. Here is New York State's Deparment of Health [dataset on recent food service establishment inspections.](https://health.data.ny.gov/Health/Food-Service-Establishment-Last-Inspection/cnih-y5dw)
+
+New York State partners with a service called Socrata to make every dataset in its collection available through APIs. [Here is documentation about using the API](https://dev.socrata.com/foundry/health.data.ny.gov/f285-x9ha)
+
+Or, you can copy the API endpoint and paste it in your browser: https://health.data.ny.gov/resource/f285-x9ha.json
+
+And specifically for Tompkins County:  https://health.data.ny.gov/resource/f285-x9ha.json?county=TOMPKINS
 
 ### A glimpse under the hood: what is the request response cycle?
 
