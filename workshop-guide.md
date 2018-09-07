@@ -81,6 +81,8 @@ For a simpler or "static" website, this .html file (let's say, dogs.html) is ess
 
 This request response cycle is at the heart of how a API works. The information you request via an API is almost never sitting there, fully formed, ready to go. Instead, it requires you to submit a **request** using a set of conditions or **parameters**. The API must be prepared to interpret the parameters in the way you've written them – this is why reading the documentation for a given API is so important. When an API approves, it will submit a response to you. Quite commonly, this is a mixture of a status code (such as 200, all good!), specification of how data is formatted (quite often, JSON), and the JSON data itself, which is essentially one long collection of text or **string**.
 
+(You can read a more detailed explanation of the request response cycle [here](https://restful.io/an-introduction-to-api-s-cee90581ca1b))
+
 ### Types of APIs
 
 Not every API accepts the same kinds of requests, or responds in the same way.
