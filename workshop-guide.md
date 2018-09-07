@@ -71,7 +71,19 @@ And specifically for Tompkins County:  https://health.data.ny.gov/resource/f285-
 
 ### A glimpse under the hood: what is the request response cycle?
 
+So far, we've used words like "querying", "fetching", and "requesting" to describe the process of getting data via an API. Here, we are going to step back and look at the big picture process behind these exchanges: the **request response cycle**.
+
+Nearly everything you do on the web is a product of the request-response cycle. Consider when you type in https://github.com/ into the browser window. You may conceptualize "going to a website" as navigating to a fully-formed, pre-existing space. In fact, typing a URL into an address bar and hitting enter is actually closer to sending a request over the Internet. Your web browser automatically adds some extra information to this request - it specifies what types of responses will be permissible, and what types to ignore or block. This data is stored into **headers**, using a method called **POST**.
+
+Somewhere in the distance, a sever will receive your request and choose whether or not to emit a response. Generally this response has a few pieces: a status code (if all goes well, this will be 200, which means "success! all ok!"), headers (generally telling your web browser what type of information to expect), and the data itself (this is the most familiar: the content of the web page, generally as a .html file).
+
+For a simpler or "static" website, this .html file (let's say, dogs.html) is essentially a replica of a dogs.html file that exists in the server's memory. However, it is much more common now that the server is actually generating these .html files on-the-fly based on a combination of factors (perhaps it starts with a template, but actually grabs more up-to-date data from a database, checks if you are logged in, and so on). This is sometimes called a **dynamic web page**.
+
+This request response cycle is at the heart of how a API works. The information you request via an API is almost never sitting there, fully formed, ready to go. Instead, it requires you to submit a **request** using a set of conditions or **parameters**. The API must be prepared to interpret the parameters in the way you've written them – this is why reading the documentation for a given API is so important. When an API approves, it will submit a response to you. Quite commonly, this is a mixture of a status code (such as 200, all good!), specification of how data is formatted (quite often, JSON), and the JSON data itself, which is essentially one long collection of text or **string**.
+
 ### Types of APIs
+
+Not every API accepts the same kinds of requests, or responds in the same way.
 
 ### Understanding the structure of data
 
