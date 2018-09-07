@@ -69,7 +69,7 @@ Or, you can copy the API endpoint and paste it in your browser: https://health.d
 
 And specifically for Tompkins County:  https://health.data.ny.gov/resource/f285-x9ha.json?county=TOMPKINS
 
-### A glimpse under the hood: what is the request response cycle?
+### 3. A glimpse under the hood: what is the request response cycle?
 
 So far, we've used words like "querying", "fetching", and "requesting" to describe the process of getting data via an API. Here, we are going to step back and look at the big picture process behind these exchanges: the **request response cycle**.
 
@@ -83,10 +83,10 @@ This request response cycle is at the heart of how a API works. The information 
 
 (You can read a more detailed explanation of the request response cycle [here](https://restful.io/an-introduction-to-api-s-cee90581ca1b))
 
-### Types of APIs
+### 4. Types of APIs
 
 Not every API accepts the same kinds of requests, or responds in the same way.
 
-### Understanding the structure of data
+### 5. Understanding the structure of data
 
-### Future directions: accessing with Python, comparisons to web scraping, etc.
+### 6. Future directions: accessing with Python, comparisons to web scraping, etc.
