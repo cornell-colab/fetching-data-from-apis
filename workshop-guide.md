@@ -87,6 +87,24 @@ This request response cycle is at the heart of how a API works. The information 
 
 Not every API accepts the same kinds of requests, or responds in the same way.
 
+The [Public APIs list](https://github.com/toddmotto/public-apis) makes the dinstiction between the following types of Public APIs:
+* Requires HTTPS access versus HTTP
+* Requires an authorization like OAuth. Typically, an API that requires OAuth will need more sophisiticated parameters of access than using a URL + query in a browser. These tend to require a script or web application. [Python is a great tool for this purpose.](https://www.dataquest.io/blog/python-api-tutorial/)
+* Supports CORS or not. This feature is important if you are building a web application/visualization/interactive feature of any kind that will need to dynamically fetch data from an API as it's running. Contemporary web browsers tend to shut down these kinds of requests (fearing they are security violations) unless there is some kind of security-ensuring mechanism like CORS running the show.
+
 ### 5. Understanding the structure of data
+
+When working with APIs, you are most likely to receive back **JSON data**. What is JSON, and how does it differ from other formats like **.csv** or **.xlsx** data?
+
+JSON, or JavaScript Object Notation, is a plain text data exchange format. .json, .csv, and .txt file formats are all similarly based on plain text, but have different limitations on the structure and symbols, or **syntax**, used to interpret the data.
+
+When working with data in tables, such as in Excel, you often work with a set of items in rows. Each item has a set of attributes, which are organized into columns. Each row tends to have all or some of the columns filled out. The visual style of a grid is convenient in communicating this kind of design.
+
+JSON works differently. Instead of a grid, you can think of JSON as a collection of objects, each of which contain collection of attributes and values. Attributes are stored in what are called **key-value** pairs. For instance, if an object represented a student named Ali, you would could use the key "name" along with the value "Ali" to store Ali's name as an attribute in their corresponding object.
+
+Not every object needs to have the exact same attributes. For instance, you might know the e-mail address of one student and store it in the key-value pair "email" -> "ali@university.edu", but simply leave out the attribute for another student. Also, there is much more flexibility in what a value might contain than a cell in a spreadsheet. A value might be a string ("Ali"), a number (28), or even a list - for instance, you may wish to have a key "classes" and store a list of information referring to each of Ali's classes.
+
+As you can see, this is a very different way of thinking about data than a flat, 2d spreadsheet. [Here is an excellent introduction](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON) with examples you can reference.
+
 
 ### 6. Future directions: accessing with Python, comparisons to web scraping, etc.
